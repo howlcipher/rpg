@@ -1,7 +1,8 @@
 # rpg
 This is table top like rpg in Go.  I am trying to create a game in which chacters can be created via text files and loaded into the game to battle.
 
-Phase 1: Make dice struct
+Phase 1: 
+  -Make dice struct
   -Dice can be sided however many is desired
   -Dice can roll to generate a random number 1 to the amount of sides
   
