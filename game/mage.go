@@ -5,7 +5,8 @@ type Mage struct {
 }
 
 func CreateMage(m Mage, s string, n []int) Mage {
-	return Mage{Character{Name: s,
+	return Mage{Character{
+		Name:         s,
 		Strength:     n[0],
 		Constitution: n[3],
 		Dexterity:    n[1],

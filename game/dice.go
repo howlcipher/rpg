@@ -40,13 +40,3 @@ type Actions interface {
 	Roll() int
 }
 
-
-
-//create the dice slice of numbers
-//type CreateDice interface {
-//	NewDice() Dice
-//}
-
-//type DiceValues interface {
-//	Sidenumbers() int
-//}

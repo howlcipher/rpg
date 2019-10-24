@@ -28,6 +28,14 @@ func Attributes(d20 int) *Character {
 	}
 }
 
+func RollforStats(n int) []int{
+	Stats := []int{}
+	for i:=0; i <= n; i++ {
+	Stats = append(Stats, 1 + rand.Intn(n))
+	}
+	return Stats
+}
+
 func bubblesort(items []int) {
 	var (
 		n      = len(items)

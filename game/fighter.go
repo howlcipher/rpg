@@ -7,7 +7,8 @@ type Fighter struct {
 
 //fighter with stat priority
 func CreateFighter(m Fighter, s string, n []int) Fighter {
-	return Fighter{Character{Name: s,
+	return Fighter{Character{
+		Name: s,
 		Strength:     n[5],
 		Constitution: n[4],
 		Dexterity:    n[3],
